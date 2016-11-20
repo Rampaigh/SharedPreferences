@@ -14,7 +14,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-### Getting Settings
+### Get Settings
 ```java
 settings.getBool("myBoolean");
 settings.getFloat("myFloat");
@@ -24,7 +24,7 @@ settings.getString("myString");
 settings.getStringSet("myStringSet");
 ```
 
-### Setting Settings
+### Set Settings
 ```java
 settings.setBool("myBoolean", true);
 settings.setFloat("myFloat", 0.7564);
