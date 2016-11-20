@@ -2,7 +2,7 @@
 
 **SharedPreferences** just got a whole lot better!
 
-### Usage
+#### Usage
 ```java
 Settings settings;
 
@@ -14,7 +14,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-### Getting Settings
+#### Getting Settings
 ```java
 settings.getBool("myBoolean");
 settings.getFloat("myFloat");
@@ -24,12 +24,12 @@ settings.getString("myString");
 settings.getStringSet("myStringSet");
 ```
 
-### Setting Settings
+#### Setting Settings
 ```java
-settings.getBool("myBoolean", true);
-settings.getFloat("myFloat", 0.7564);
-settings.getInt("myInteger", 132);
-settings.getLong("myLong", 13234893487);
-settings.getString("myString", "This is myString's value");
-settings.getStringSet("myStringSet", null);
+settings.setBool("myBoolean", true);
+settings.setFloat("myFloat", 0.7564);
+settings.setInt("myInteger", 132);
+settings.setLong("myLong", 13234893487);
+settings.setString("myString", "This is myString's value");
+settings.setStringSet("myStringSet", null);
 ```
