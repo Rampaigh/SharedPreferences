@@ -1,6 +1,7 @@
 # Settings.java
 
 **SharedPreferences** just got a whole lot better!
+
 ----
 ## Usage
 
