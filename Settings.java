@@ -26,7 +26,7 @@ class Settings extends Activity {
     * Get
     * ==================================================================================================*/
     public Boolean getBool(String id) {
-        return settings.getBoolean(id, true);
+        return settings.getBoolean(id, false);
     }
 
     public Float getFloat(String id) {
